@@ -1,0 +1,13 @@
+name: AdvancementSync
+main: com.davi.AdvancementSync.AdvancementSync
+version: 1.0
+api-version: 1.16
+commands:
+  scan:
+    description: Scan player advancements and give it to other online players
+    usage: /<command> [<player>]
+    permission: advancementSync.scan
+  scanprogress:
+    description: Show the remaining criteria to complete the advancement specified
+    usage: /<command> [<advancement name>]
+    permission: advancementSync.scanprogress
