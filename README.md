@@ -3,11 +3,13 @@
 Minecraft Spigot plugin to sync players' advancements (formerly achievements in versions before 1.12)
 
 ## Usage
+
 Whenever a player make an advancement, everyone online in the server will also receive it.
 
-- `/scan <player>` - Scans the advancements of \<player>, giving every advancement completed  to everyone online at the moment. <br>Useful for when you made an advancement and someone is offline.
+- `/scan <player>` - Scans the advancements of \<player>, giving every advancement completed  to everyone online at the moment.  
+Useful for when you made an advancement and someone is offline.
 
-- `/scanprogress <advancement resource name>` - Shows the criteria that you need to complete to get the advancement specified.<br>
+- `/scanprogress <advancement resource name>` - Shows the criteria that you need to complete to get the advancement specified.  
 You can get the advancement resource name [here](https://minecraft.fandom.com/wiki/Advancement#:~:text=and%20data%20packs.-,List%20of%20advancements,-Minecraft) under the resource location section.
 
 ## Compatibility
