@@ -14,7 +14,7 @@ You can get the advancement resource name [here](https://minecraft.fandom.com/wi
 
 ## Compatibility
 
-This plugin was made with spigot 1.16.5 in mind, but it doesn't use any spigot-only funcionality, so it should work on any bukkit fork.
+This plugin was made with spigot 1.16.5 in mind, but it doesn't use any spigot-only functionality, so it should work on any bukkit fork.
 
 Tested only in minecraft 1.16.5 but should work in other versions since it doesn't do anything version-specific
 
