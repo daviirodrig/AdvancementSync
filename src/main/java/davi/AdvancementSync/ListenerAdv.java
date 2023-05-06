@@ -1,4 +1,4 @@
-package com.davi.AdvancementSync;
+package davi.AdvancementSync;
 
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
@@ -10,7 +10,8 @@ public class ListenerAdv implements Listener {
     public void onAdv(PlayerAdvancementDoneEvent event) {
         String adv_name = event.getAdvancement().getKey().getKey();
         if (!adv_name.startsWith("recipes/")) {
-            Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "advancement grant @a only minecraft:" + adv_name);
+            String cmd = "advancement grant @a only minecraft:" + adv_name;
+            Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), cmd);
         }
     }
 }

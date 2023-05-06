@@ -1,4 +1,4 @@
-package com.davi.AdvancementSync;
+package davi.AdvancementSync;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
